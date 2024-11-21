@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ header{
+    display: flex;
+    position: fixed;
+    width:100%;
+    height:90px;
+    margin:0px;
+    padding:0px;
+    background-color:bisque;
+    z-index: 1000;
+    }
+       header img{
+          width: 110px;
+          height:auto;
+          border-radius: 50%;
+          padding-left: 20px;
+    }
+    .Button{
+       display:flex;
+       justify-content: right;
+       position:absolute;
+       right: 30px;
+       top: 30px;
+       padding: 0 20px;
+       text-align: center;
+       border-radius: 15px;
+    }
+       .Accueil{
+          margin-right: 30px;
+          border-radius: 15px;
+          font-size: 1.2rem;
+          border: none;
+          background: color #f7ebda;
+       }
+       .Réalisations{
+          margin-right: 30px;
+          border-radius: 15px;
+          font-size: 1.2rem;
+          border: none;
+          background: color#BFA07F;
+       }
+       .Contact{
+          margin-right: 30px;
+          border-radius: 15px;
+          font-size: 1.2rem;
+          border: none;
+          background: color #e7d3b6;
+       }
+ Body{
+    margin: 0px;
+    padding: 0px;
+    width:auto;height: 100%;
+    background-image: url(../Img/fond.png);
+    background-position: center;
+    background-size: cover;
+}
+.Cv{
+   display: flex;
+   height: auto;
+   justify-content: space-around;
+}
+.Cv P{
+   display: flex;
+   flex-direction: column;
+   text-align: justify;
+   padding: 10% 10%;
+   margin:12% 0;
+   border-spacing: 10px 1rem;
+   color: #2a2523;
+   font-size: medium;
+   line-height: 1.4em;
+}
+.Cv img{
+   display: flex;
+   flex-direction: column;
+   width : 480px;
+   height :380px;
+   margin:10% 0;
+   margin-right: 150px;
+   border-spacing: 10px;
+   border-radius: 6%;
+}
+
+ Footer{
+   display: flex;
+   position:sticky;
+   justify-content: right;
+   margin-right: 100px;
+   padding-right:100px;
+   width:100%;
+   height: 50px;
+   background-color: beige;
+   opacity:0.7;
+   position: fixed;
+   bottom: 0; left: 0; right: 0;
+   }   
+   Footer img {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin: 10px;
+      margin-top:10px;
+      margin-bottom: 30px;
+   }
+   footer img:hover{
+      opacity : 0.5;
+      transition-duration:.5s;
+   }
+#Maj{
+   text-align:left;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin: 8px 0;
+   padding:5px;
+   border: 1px;
+   font-size:0.6em;
+   color:#606e2a;
+   }  
+   
+   

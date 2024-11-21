@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>contact.html</title>
+        <link rel="stylesheet" href="./contact.css"> 
+    </head> 
+    <header>
+        <div class="Logoent">
+            <div class="Logoent" id="Logoent">
+                <a href="D:\Devoir\Devoir 4 - Portfolio/index.html"><img src="../Img/logoent.png" alt="Logo entreprise"></a>
+        </div>  
+        <div class="Button">
+            <a href =" D:\Devoir\Devoir 4 - Portfolio/index.html" target="top"><button type="button"class="Accueil">Accueil</button></a>
+            <a href="./realisations.html" target="top"><button type="button"class="Réalisations">Réalisations</button></a>
+        </div>
+
+
+    </header>
+    <section id="Formulaire">
+        <h1>N'hésitez pas<br>Contactez-moi</h1>
+            <form action="mailto:CraftSite2024@outlook.com" method="post">
+                <div>
+                    <label for="Prenom">Votre Prenom</label>
+                        <input type="text" id="Prenom" name="Prenom" placeholder="Votre Prenom" required>
+                </div>
+                <div>
+                    <label for="Nom">Votre nom</label>
+                    <input type="text" id="Nom" name="Nom" placeholder="Votre nom" required>
+                </div>
+                    
+                <div>
+                    <label for="email">Votre e-mail</label>
+                    <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+                </div>
+                    
+                <div>
+                    <label for="message">Votre message</label>
+                    <textarea id="message" name="message" placeholder="Bonjour,..." required></textarea>
+                </div>
+                    
+                <div>
+                    <button type="submit">Envoyer message</button>
+                    
+                </div>
+            </form>
+    </div>
+</section> 
+<script src="./asset/CSS/script.js"></script>              
+</body>
+<footer>
+<a target="blank" href="https://github.com/Amandine2212"><img src="../Img/logogithub.png" alt="Logo Github"></a>
+<a target="blank" href="https://www.linkedin.com/in/amandine-l-5ba551260/"><img src="../Img/logolinkedin.png"alt="Logo Linkedin"></a>
+
+<div id=Maj>
+    <script type="text/javascript">
+        var ladate=new Date()
+        document.write("Mise à jour le: ");
+        document.write(ladate.getDate()+"/"+(ladate.getMonth()+1)+"/"+ladate.getFullYear())
+        </script>
+</div>
+
+
+</footer>   
+</html>
