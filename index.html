@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>index.html</title>
+        <link rel="stylesheet" href="./asset/CSS/style.css"> 
+    </head> 
+    <header>
+        <div class="Logoent">
+            <div class="Logoent" id="Logoent">
+            <a href="index.html"><img src="./Asset/Img/logoent.png" alt="Logo entreprise"></a>
+        </div>  
+        <div class="Button">
+            <a href ="index.html" target="top"><button type="button"class="Accueil"> Accueil</button></a>
+            <a href="./asset/CSS/realisations.html" target="top"><button type="button"class="Réalisations"> Réalisations</button></a>
+            <a href="./asset/CSS/page 404.html"target="top"><button type="button" class="Projet">Projet en cours</button></a>
+            <a href ="../Devoir 4 - Portfolio/asset/CSS/contact.html" target="top"><button type="button"class="Contact"> Contact</button></a>
+            
+        </div>
+    </header>
+    <body>
+        <section id="Global">
+            <div class="Entete">
+                    <h1>Amandine LARROSA</h1>
+                        <P>Bienvenue sur ma page Portfolio! <br> Je vous invite à y découvrir mes réalisations</P>
+                            <h2>Developpeuse Web en devenir</h2>
+                            <img src="../Devoir 4 - Portfolio/asset/Img/portrait.png" alt="portrait">
+            </div>
+        </section>      
+        <section id="Images">
+            <h1>Mes Réalisations</h1>  
+            <div class="CV">
+                <figure>
+                    <a target="blanck" href="../Devoir 4 - Portfolio/asset/CSS/realisation CV.html"><img src="./Asset/Img/Cv.jpg" alt="Logo Cv"> </a>
+                        <figcaption> CV</figcaption>   
+                </figure>
+            </div>
+            <div class="CDC">   
+                <figure>
+                    <a target="_blanck" href ="../Devoir 4 - Portfolio/asset/CSS/realisationCDC.html"><img src="./Asset/Img/CahierDesCharges.jpg" alt="Logo CDC"></a>
+                    <figcaption> Cahier des Charges</figcaption> 
+                </figure>
+            </div> 
+            <div class="Dynamiser">     
+                <figure>
+                    <a target="_blanck" href ="../Devoir 4 - Portfolio/asset/CSS/realisationdynamique.html"><img src="./Asset/Img/dynamiser.jpg" alt="Logo Dynamiser"></a>
+                    <figcaption> Dynamiser un espace Commentaire</figcaption>   
+                </figure>
+            </div>
+        </section>       
+        <section id="Description">
+                <h3>A propos de moi... </h3>
+                <p>Assistante administative confirmée, à la recherche de nouveau challenge professionnel.<br> Je souhaiterais étendre mes compétences, très à l'aise avec les nombreuses activités administratives qu'exige une entreprise pour son bon fonctionnement,<br> je dispose d'un grand savoir-être et d'important savoir-faire.</p>
+        </section>
+        <section id="Formulaire">
+                <h1>N'hésitez pas<br>Contactez-moi</h1>
+                    <form action="mailto:CraftSite2024@outlook.com" method="post">
+                        <div>
+                            <label for="Prenom">Votre Prenom</label>
+                                <input type="text" id="Prenom" name="Prenom" placeholder="Votre Prenom" required>
+                        </div>
+                        <div>
+                            <label for="Nom">Votre nom</label>
+                            <input type="text" id="Nom" name="Nom" placeholder="Votre nom" required>
+                        </div>
+                            
+                        <div>
+                            <label for="email">Votre e-mail</label>
+                            <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+                        </div>
+                            
+                        <div>
+                            <label for="message">Votre message</label>
+                            <textarea id="message" name="message" placeholder="Bonjour,..." required></textarea>
+                        </div>
+                            
+                        <div>
+                            <button type="submit">Envoyer message</button>
+                            
+                        </div>
+                    </form>
+            </div>
+        </section> 
+        <script src="./asset/CSS/script.js"></script>              
+    </body>
+    <footer>
+        <a target="blank" href="https://github.com/Amandine2212"><img src="./Asset/Img/logogithub.png" alt="Logo Github"></a>
+        <a target="blank" href="https://www.linkedin.com/in/amandine-l-5ba551260/"><img src="./Asset/Img/logolinkedin.png"alt="Logo Linkedin"></a>
+        
+        <div id=Maj>
+            <script type="text/javascript">
+                var ladate=new Date()
+                document.write("Mise à jour le: ");
+                document.write(ladate.getDate()+"/"+(ladate.getMonth()+1)+"/"+ladate.getFullYear())
+                </script>
+        </div>
+    </footer>   
+</html>
