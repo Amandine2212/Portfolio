@@ -1,0 +1,37 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "tag": ["HTML", "CSS"],
+            "name": "CV - Amandine LARROSA",
+            "description": "Ce projet vise à convertir un CV numérique en format HTML et CSS",
+            "image": [
+                {
+                    "src":"src/assets/images/images projets/cvImg.png","alt":"CV"
+                }
+            ]
+        },   
+        {
+            "id": 2,
+            "tag": ["JavaScript"],
+            "name": "Espace Commentaire",
+            "description": "L'objectif de ce projet était l'intégration d'un nouveau commentaire dans un espace commentaire.",
+            "image": [
+                {
+                "src":"src/assets/images/images projets/dynamique","alt":"Espace Commentaire"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "tag": ["CDC"],
+            "name": "Cahier des charges 'La Socketterie'",
+            "description": "Création du cahier des charges pour la création du site internet de l'entreprise : 'La Socketterie'.",
+            "image": [
+                {
+                    "src":"./asset/images/images projets/CDCPage0","alt":"CDC"   
+                }
+            ]
+        }
+    ]
+}
